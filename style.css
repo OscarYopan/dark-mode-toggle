@@ -67,5 +67,38 @@ input:focus + .slider {
 input:checked + .slider:before {
   -webkit-transform: translateX(5.2rem);
   -ms-transform: translateX(5.2rem);
-  transform: translateX(5.2rem;
+  transform: translateX(5.2rem);
 }
+
+.dark {
+  background-color: #262626;
+}
+
+.fa-solid {
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.fa-sun {
+  left: 1.3rem;
+  color: #F2C53D;
+}
+
+.fa-moon {
+  z-index: -10;
+  right: 1.3rem;
+  color: #262626;
+}
+
+.fa-sun.dark {
+  z-index: -10;
+}
+
+.fa-moon.dark {
+  z-index: 10;
+  background-color: transparent;
+}
+
