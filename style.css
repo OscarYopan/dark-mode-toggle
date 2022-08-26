@@ -37,7 +37,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #2196F3;
   border-radius: 34px;
   -webkit-transition: .4s;
   transition: .4s;
@@ -46,8 +46,8 @@ body {
 .slider:before {
   position: absolute;
   content: "";
-  height: 5.2rem;
-  width: 5.2rem;
+  height: 5.5rem;
+  width: 5.5rem;
   left: .8rem;
   bottom: .8rem;
   background-color: white;
@@ -57,11 +57,11 @@ body {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #735645;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #735645;
 }
 
 input:checked + .slider:before {
@@ -75,7 +75,7 @@ input:checked + .slider:before {
 }
 
 .fa-solid {
-  font-size: 4rem;
+  font-size: 3.5rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -83,7 +83,7 @@ input:checked + .slider:before {
 }
 
 .fa-sun {
-  left: 1.3rem;
+  left: 1.8rem;
   color: #F2C53D;
 }
 
